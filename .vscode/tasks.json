@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run MIPS in MARS",
+      "type": "shell",
+      "command": "java",
+      "args": [
+        "-jar",
+        "D:\\Mars4_5.jar",     // ⬅️ Change this path to where your mars.jar is
+        "nc",
+        "quiz-game.asm"             // ⬅️ Your MIPS Assembly file
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
