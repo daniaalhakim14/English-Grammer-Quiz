@@ -1,4 +1,4 @@
-#🧠 English Grammar Quiz – MIPS Assembly Language
+🧠 English Grammar Quiz – MIPS Assembly Language
 Type: Command-Line Interface (CLI) Application
 Tools: Visual Studio, MIPS Assembly Language
 
